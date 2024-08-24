@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className=" flex flex-col ">
       {/* top section */}
-      <section className=" flex flex-col gap-2 sm:flex-row items-center justify-between p-10 px-32  bg-[#f0f9fe]">
-        <p className=" flex flex-col gap-2 ">
+      <section className=" flex flex-col items-center gap-2 sm:flex-row justify-between p-10 md:px-10 lg:px-32  bg-[#f0f9fe]">
+        <p className=" w-64 h-16 flex flex-col gap-2 ">
           <span>Prepare for your next interview</span>
           <span>with mentors from top companies</span>
         </p>
@@ -17,7 +17,7 @@ const Footer = () => {
       </section>
 
       {/* middle section */}
-      <section className=" flex items-center justify-between py-10 px-8 md:px-10 bg-[#bedbfd] lg:px-32">
+      <section className=" flex items-center justify-between py-10 md:px-10 bg-[#bedbfd] lg:px-32">
         <p className=" text-lg sm:text-2xl font-semibold space-x-4">
           Still Have Doubts ?
         </p>
